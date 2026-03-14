@@ -30,7 +30,7 @@ def resolve_url(base, href):
     if not href:
         return ""
     return urljoin(base, href)
-
+##return
 
 def clean_text(text):
     """Strip and normalize whitespace from a text string."""
