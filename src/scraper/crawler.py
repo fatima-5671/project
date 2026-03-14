@@ -116,7 +116,7 @@ def crawl_subcategory(cat_info):
                     "page": page_num,
                 }
             )
-
+##next url
         next_url = get_next_page_url(soup, url)
         url = next_url
         page_num += 1
